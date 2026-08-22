@@ -5,7 +5,7 @@ import json, os, re
 
 BASE = '/sandbox/workspace/sympathy-site'
 DOMAIN = 'https://whatsowriteinasympathycard.com'
-GA_TAG = 'G-XXXXXXXXXX'  # TODO: 替换为新 GA4 Measurement ID
+GA_TAG = 'G-QBK28ZBRSB'
 
 wb = json.load(open(f'{BASE}/wordbank.json', encoding='utf-8'))
 
@@ -55,6 +55,110 @@ SCENES = {
              'Follow the same structure: acknowledge the loss, express sorrow, share a memory or quality, offer specific help, close warmly. If you didn\'t know him well, focus on the person you do know: "I know how much your father meant to you."'),
             ('Should I mention memories of the father?',
              'Yes — sharing one specific memory validates his life and gives comfort like nothing else. "I\'ll always remember how proud he was when he talked about you" is a gift.'),
+        ],
+    },
+    'husband': {
+        'slug': 'condolence-messages-for-loss-of-husband',
+        'h1': 'Condolence Messages for Loss of Husband',
+        'title': 'Condolence Messages for Loss of Husband – 30+ Heartfelt Examples',
+        'desc': 'Losing a husband is losing a partner and best friend. Find heartfelt condolence messages for loss of husband — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say to someone who lost their husband?',
+             'Acknowledge the marriage and his role: "I am so deeply sorry. He was a wonderful partner and so devoted to you." Say his name, share a memory if you can, and offer specific ongoing help.'),
+            ('What not to say to a widow?',
+             'Never say "you\'re young, you\'ll find someone again" or "at least you had him for X years." Don\'t tell her to "be strong for the kids." These minimize her loss and pressure her to hide grief.'),
+            ('How can I support someone who lost their husband?',
+             'Grief after losing a spouse is long. Offer concrete help in the first weeks (meals, errands), but keep checking in at 3, 6, and 12 months — that\'s when support often fades but is needed most.'),
+            ('What should I write in a card for loss of husband?',
+             'Acknowledge the loss, express your sorrow, share a memory of him if you have one, offer specific help, and close warmly. Sincerity matters more than length.'),
+        ],
+    },
+    'wife': {
+        'slug': 'condolence-messages-for-loss-of-wife',
+        'h1': 'Condolence Messages for Loss of Wife',
+        'title': 'Condolence Messages for Loss of Wife – 30+ Heartfelt Examples',
+        'desc': 'Losing a wife is losing a partner and the heart of the home. Find heartfelt condolence messages for loss of wife — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say to someone who lost their wife?',
+             'Acknowledge her warmth and the life they built: "I am so deeply sorry. She was the heart of your home and so loved." Men grieving often appreciate practical help more than words — offer something specific.'),
+            ('What not to say to a widower?',
+             'Avoid "be strong for the kids" — it pressures him to hide his grief. Avoid "you\'ll meet someone again someday." Never ask how she died. Keep it simple and sincere.'),
+            ('How long does grief last after losing a spouse?',
+             'There is no timeline — grief changes over years and comes in waves. What matters is ongoing support: check in at 3, 6, and 12 months, on anniversaries and birthdays.'),
+            ('How do I write a condolence card for a widower?',
+             'Acknowledge the loss, express your sorrow, share a memory of her if you have one, and offer specific practical help. Men often grieve quietly, so a message that leaves the door open matters.'),
+        ],
+    },
+    'friend': {
+        'slug': 'condolence-messages-for-loss-of-friend',
+        'h1': 'Condolence Messages for Loss of a Friend',
+        'title': 'Condolence Messages for Loss of a Friend – 30+ Heartfelt Examples',
+        'desc': 'Losing a friend is losing chosen family. Find heartfelt condolence messages for loss of a friend — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say when someone loses a friend?',
+             'Acknowledge the friendship itself — society often under-recognizes grief for friends, so validating it matters: "I\'m so sorry about your friend. Friends like that don\'t come along often."'),
+            ('Is it okay to grieve a friend deeply?',
+             'Absolutely. Friends are chosen family, and losing one is a profound loss. Grief for a friend is completely valid, even if others don\'t always understand its depth.'),
+            ('What should I write in a sympathy card for a friend\'s loss?',
+             'Acknowledge the loss, express your sorrow, share a memory of them together if you can, and offer to listen or spend time. Grief for a friend can be isolating — your presence matters.'),
+        ],
+    },
+    'coworker': {
+        'slug': 'condolence-messages-for-loss-of-coworker',
+        'h1': 'Condolence Messages for Loss of a Coworker',
+        'title': 'Condolence Messages for Loss of a Coworker – 30+ Heartfelt Examples',
+        'desc': 'Losing a coworker is losing a teammate and familiar presence. Find heartfelt condolence messages for loss of a coworker — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say to a coworker who lost a colleague?',
+             'Acknowledge the loss and their contribution: "I\'m so sorry to hear about [name]. They were such a valued part of our team and will be deeply missed." Workplace grief is real — naming it helps.'),
+            ('Should I send a sympathy message to a coworker?',
+             'Yes. A sincere message matters more than you think. Mention their contribution or the daily presence you\'ll miss. Offer practical support at work, like covering a shift or a meeting.'),
+            ('What not to say to a coworker who lost a colleague?',
+             'Avoid "at least you didn\'t work with them long" or "the show must go on." Don\'t treat it as a minor loss. Never ask for details of the death.'),
+        ],
+    },
+    'grandmother': {
+        'slug': 'condolence-messages-for-loss-of-grandmother',
+        'h1': 'Condolence Messages for Loss of Grandmother',
+        'title': 'Condolence Messages for Loss of Grandmother – 30+ Heartfelt Examples',
+        'desc': 'Grandmothers are the keepers of family stories. Find heartfelt condolence messages for loss of grandmother — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say when someone loses their grandmother?',
+             'Acknowledge her role as the heart of the family and a keeper of stories: "I\'m so sorry about your grandmother. She was the heart of your family, and her warmth will be so deeply missed."'),
+            ('What should I write in a card for loss of grandmother?',
+             'Acknowledge the loss, express your sorrow, and if you have a memory — a recipe, a saying, a moment — share it. Acknowledge her legacy and the family bonds she held together.'),
+            ('How do I comfort a friend who lost their grandmother?',
+             'Offer to listen, share memories, and be present. Offer help with family gatherings or arrangements. Grandmother grief often includes grief for family connection — acknowledge that.'),
+        ],
+    },
+    'grandfather': {
+        'slug': 'condolence-messages-for-loss-of-grandfather',
+        'h1': 'Condolence Messages for Loss of Grandfather',
+        'title': 'Condolence Messages for Loss of Grandfather – 30+ Heartfelt Examples',
+        'desc': 'Grandfathers are the quiet pillars of a family. Find heartfelt condolence messages for loss of grandfather — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say when someone loses their grandfather?',
+             'Acknowledge his legacy: "I\'m so sorry about your grandfather. He was a pillar of your family, and his wisdom will be so deeply missed." Share a memory if you have one.'),
+            ('What should I write in a card for loss of grandfather?',
+             'Acknowledge the loss, express your sorrow, and honor his legacy — the stories, the lessons, the family he built. A specific memory of him is the most powerful gift.'),
+            ('How do I support someone grieving their grandfather?',
+             'Be present and offer help with arrangements or gatherings. Grandfather grief often connects to family identity; acknowledging his role in shaping theirs matters.'),
+        ],
+    },
+    'pet': {
+        'slug': 'condolence-messages-for-loss-of-pet',
+        'h1': 'Condolence Messages for Loss of a Pet',
+        'title': 'Condolence Messages for Loss of a Pet – 30+ Heartfelt Examples',
+        'desc': 'Losing a pet is losing a family member. Find heartfelt condolence messages for loss of a pet — warm, short, meaningful, and religious examples.',
+        'faq': [
+            ('What do you say when someone\'s pet dies?',
+             'Treat it with genuine respect: "I\'m so sorry about your [pet]. They were such a wonderful companion and so loved." Say the pet\'s name and acknowledge the specific joy they brought.'),
+            ('Is it okay to grieve a pet deeply?',
+             'Absolutely. Pets are family members who give unconditional love. Pet grief is real and profound — never let anyone minimize it.'),
+            ('What should I write in a card for loss of a pet?',
+             'Acknowledge the loss, mention the pet by name, and share a memory of them if you have one. Offer concrete support: a walk, a meal, or simply being present.'),
+            ('How long does pet grief last?',
+             'There\'s no timeline. Pet grief can hit hardest after the initial shock fades, often weeks later. Keep checking in — your acknowledgment matters long after.'),
         ],
     },
 }
