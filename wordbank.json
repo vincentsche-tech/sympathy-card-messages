@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "version": "0.1",
+    "site": "whatsowriteinasympathycard.com",
+    "note": "手工精写慰问语词库 v0.1：general/mother/father 三套 × warm/short/meaningful/religious 四种语气",
+    "quality": "每条消息经人工打磨，注入真实温度与场景感，避免陈词滥调"
+  },
+  "general": {
+    "label": "General Sympathy",
+    "intro": "These messages work for almost any loss — a friend, a coworker, an acquaintance. Keep them sincere and personal; a short message from the heart always beats a long, polished one.",
+    "messages": {
+      "warm": [
+        "I am so deeply sorry for your loss. Please know that you are in my thoughts and heart during this incredibly difficult time.",
+        "There are no words that can take away the pain you're feeling, but I want you to know I'm here for you — today and in the days ahead.",
+        "I was so saddened to hear the news. Your loved one meant so much to so many people, and they will be deeply missed.",
+        "Sending you all my love and strength. I can't imagine what you're going through, but you don't have to go through it alone.",
+        "My heart goes out to you and your family. Please don't hesitate to reach out if there is anything at all I can do.",
+        "I'm thinking of you and holding space for you during this unimaginable time. Grief is hard, and you deserve all the support in the world.",
+        "I wish I had the right words, but please know my heart is with you. Your loved one was truly special."
+      ],
+      "short": [
+        "I'm so sorry for your loss.",
+        "Thinking of you during this difficult time.",
+        "My deepest sympathy to you and your family.",
+        "Sending you love and strength.",
+        "My heart is with you.",
+        "So sorry to hear this. I'm here for you."
+      ],
+      "meaningful": [
+        "Some losses leave a mark that never fully fades, and that's okay — it means the love was real. I'm so sorry for your loss, and I'm here for you.",
+        "Grief is the price we pay for love, and your love for them was clearly immense. I'm holding you in my thoughts.",
+        "The people we love never truly leave us — they live on in every memory, every story, every moment we carry them with us. Your loved one lives on in you.",
+        "I know no words can ease this, but I hope you can feel how much you are loved and supported right now.",
+        "May the memories you shared bring you comfort in the days ahead, and may you always feel their presence with you.",
+        "There is a sacredness in grief — it is love that has nowhere to go. I'm so sorry for your loss, and I'm holding your family in my heart."
+      ],
+      "religious": [
+        "May God hold you and your family in His comfort during this difficult time. You are in my prayers.",
+        "Praying for peace and strength for you and your family. 'Blessed are those who mourn, for they will be comforted.' (Matthew 5:4)",
+        "May you find comfort in the promise that your loved one is at peace in God's loving arms. Praying for you.",
+        "I'm praying that God wraps you in His peace that surpasses all understanding. You are so loved.",
+        "May the Lord be close to the brokenhearted and give you strength in the days ahead. You are in my prayers."
+      ]
+    },
+    "advice": "Keep it sincere and specific. A short message from the heart beats a long, polished one. If you can, mention one specific memory or quality. Offer concrete help rather than vague offers ('I can bring dinner on Tuesday' beats 'let me know if you need anything'). And follow up after the funeral — that's when support often fades but is still needed most.",
+    "avoid": "Avoid clichés like 'he's in a better place' or 'everything happens for a reason.' Don't make it about your own experience unless you've been through the same loss and it's clearly welcomed. Never ask for details of the death. Don't say 'call me if you need anything' without being specific — grieving people rarely ask for help."
+  },
+  "mother": {
+    "label": "Loss of Mother",
+    "intro": "Losing a mother is one of the deepest losses a person can experience. When writing, acknowledge her warmth and her unique place in their life. A specific memory — even a small one — means more than any generic phrase.",
+    "messages": {
+      "warm": [
+        "I am so incredibly sorry for the loss of your mother. She had such a gentle, loving way about her, and I know how deeply she will be missed.",
+        "Your mom was one of a kind — warm, giving, and so proud of you. I'm holding you close in my thoughts and heart.",
+        "There's no one like a mother, and losing her leaves a space that nothing else can fill. Please know I'm here for you, always.",
+        "I was so saddened to hear about your mother. She raised a wonderful daughter, and that's a legacy that will live on forever.",
+        "Your mother's love will always be with you. I'm so sorry for your loss and sending you all my love.",
+        "Your mom had a way of making everyone feel at home. I'll always remember her kindness, and I know how much you'll miss that warmth."
+      ],
+      "short": [
+        "I'm so sorry about your mom. She was so loved.",
+        "Thinking of you and your family. Your mother was a beautiful soul.",
+        "My heart breaks for you. Your mom will be so deeply missed.",
+        "Sending you so much love. Your mother was one in a million."
+      ],
+      "meaningful": [
+        "A mother's love is the first love we ever know, and losing that is losing a part of yourself. But her love is still in you — in the way you care for others, in every lesson she taught you. I'm so sorry.",
+        "Your mother gave you the greatest gift — a lifetime of love that no loss can erase. I'm holding you in my heart.",
+        "The bond between a mother and child is unbreakable, even by death. She is with you, always. I'm so sorry for your loss.",
+        "A mother's love is the thread that weaves a family together, and your mom wove yours with care. That fabric of love remains, even now. I'm so deeply sorry."
+      ],
+      "religious": [
+        "May God's peace surround you as you grieve your precious mother. She is safe in His loving arms now. Praying for you and your family.",
+        "I'm so sorry for the loss of your mother. 'The Lord is close to the brokenhearted' (Psalm 34:18). May you feel His comfort.",
+        "Praying that your mother rests in eternal peace and that you find strength in the Lord during this time.",
+        "May the hope of eternal life comfort you, knowing your mother is at peace with God. You are in my prayers."
+      ]
+    },
+    "advice": "Acknowledge the depth of the loss specifically — mention her warmth, her role in their life. If you knew her, share one concrete memory ('I'll never forget how she laughed'). Offer concrete help with a date attached: 'I can bring dinner on Tuesday.' Mothers are often the heart of the family, so acknowledge the ripple effect on the whole family.",
+    "avoid": "Avoid 'she's in a better place' unless you know their beliefs, and 'at least she lived a long life' (it minimizes grief). Never say 'I know how you feel' unless you have truly lost a mother. Don't compare losses or rush them to 'move on.'"
+  },
+  "father": {
+    "label": "Loss of Father",
+    "intro": "A father is often a quiet anchor — a protector, a guide, a steady presence. When writing, acknowledge his role in their life and the values he passed on. Men often grieve more quietly, so a simple, sincere message that leaves the door open can mean the world.",
+    "messages": {
+      "warm": [
+        "I am so deeply sorry for the loss of your father. He was a man of strength and kindness, and I know how much he meant to you.",
+        "Your dad was someone you could always count on — steady, caring, and so proud of you. I'm thinking of you and your family.",
+        "A father's presence is a quiet anchor, and losing him leaves a profound emptiness. Please know I'm here for you, always.",
+        "I was so saddened to hear about your father. He raised a wonderful son, and his legacy lives on through you.",
+        "Your father's guidance and love shaped the person you are today. I'm so sorry for your loss, and I'm holding you in my thoughts.",
+        "Your dad had a quiet strength about him that I always admired. I know how much you'll miss his steady presence."
+      ],
+      "short": [
+        "I'm so sorry about your dad. He was a remarkable man.",
+        "Thinking of you and your family. Your father will be deeply missed.",
+        "My heart goes out to you. Your dad was so loved.",
+        "So sorry for your loss. Your father was a great man."
+      ],
+      "meaningful": [
+        "Our fathers are often the quiet heroes of our lives — the ones who taught us what it means to be brave, honest, and kind. Your father gave you those gifts, and they live on in you. I'm so sorry.",
+        "The wisdom and love your father shared with you will never fade. He walks with you still. I'm holding you in my heart.",
+        "Losing a father is losing a guide, a protector, and a friend all at once. May the memories you carry bring you comfort.",
+        "A father's greatest legacy is the person he raised, and yours is a living testament to his love and character. I'm so deeply sorry for your loss."
+      ],
+      "religious": [
+        "May God grant your father eternal rest and give you and your family His peace during this time of loss. You are in my prayers.",
+        "I'm so sorry for your loss. 'The Lord is my shepherd' — may you feel His comfort and guidance as you grieve your father.",
+        "Praying for strength and peace for you and your family as you honor your father's life and legacy.",
+        "May you find comfort knowing your father is at peace in God's presence. Praying for you all."
+      ]
+    },
+    "advice": "Acknowledge his role — a protector, a guide, a steady presence. If you knew him, share a specific memory that shows who he was. Because men often grieve quietly, a simple message that leaves the door open ('I'm here when you want to talk') can mean the world. Offer to help with practical things — arrangements, meals, errands — often more appreciated than words.",
+    "avoid": "Avoid 'man up' or 'be strong for your family' — it pressures the grieving and shuts down healthy grief. Avoid 'time heals all wounds' too soon. Don't ask 'how did he die?' — let them share if they want to."
+  }
+}

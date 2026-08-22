@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://whatsowriteinasympathycard.com/sitemap.xml
