@@ -161,6 +161,90 @@ SCENES = {
              'There\'s no timeline. Pet grief can hit hardest after the initial shock fades, often weeks later. Keep checking in — your acknowledgment matters long after.'),
         ],
     },
+    'son': {
+        'slug': 'condolence-messages-for-loss-of-son',
+        'h1': 'Condolence Messages for Loss of Son',
+        'title': 'Condolence Messages for Loss of Son – 30+ Gentle Messages',
+        'desc': 'Losing a son is unimaginable. Find gentle, heartfelt condolence messages for loss of son — written with care for grieving parents.',
+        'faq': [
+            ('What do you say to a parent who lost a son?',
+             'Keep it brief and gentle: "I am so deeply sorry for the loss of your son. No parent should have to bear this." Share one memory if you knew him, and offer specific help. Your presence matters more than your words.'),
+            ('What should I NOT say to a parent who lost a child?',
+             'Never say "he\'s in a better place", "at least you have other children", or "time heals all wounds". Avoid any silver linings — there are none for a parent who lost a child. And don\'t avoid them; silence after a child\'s death is devastatingly painful.'),
+            ('How can I support parents grieving a son?',
+             'Keep showing up — weeks and months later, when the world has moved on but their grief hasn\'t. Offer concrete help with specifics (meals, errands). Remember his name and say it. Be present on birthdays and anniversaries.'),
+        ],
+    },
+    'daughter': {
+        'slug': 'condolence-messages-for-loss-of-daughter',
+        'h1': 'Condolence Messages for Loss of Daughter',
+        'title': 'Condolence Messages for Loss of Daughter – 30+ Gentle Messages',
+        'desc': 'Losing a daughter is a parent\'s deepest grief. Find gentle, heartfelt condolence messages for loss of daughter — written with care.',
+        'faq': [
+            ('What do you say to a parent who lost a daughter?',
+             'Keep it simple and honest: "I am so deeply sorry for the loss of your daughter. She was a light in this world." Share a memory if you knew her, and offer concrete help.'),
+            ('How long does grief last for a parent who lost a child?',
+             'Forever — there is no timeline. Parents carry this grief for life. What matters is ongoing support: the first birthday without her, the holidays, the anniversaries. Keep showing up.'),
+            ('What should I write in a card for a parent who lost a daughter?',
+             'Keep it brief and gentle. "I\'m so sorry for your loss. Thinking of you and your family." Add one specific memory of her if you can. Avoid all clichés and explanations.'),
+        ],
+    },
+    'brother': {
+        'slug': 'condolence-messages-for-loss-of-brother',
+        'h1': 'Condolence Messages for Loss of Brother',
+        'title': 'Condolence Messages for Loss of Brother – 30+ Heartfelt Messages',
+        'desc': 'Losing a brother is losing a childhood companion. Find heartfelt condolence messages for loss of brother — warm, meaningful, and religious.',
+        'faq': [
+            ('What do you say to someone who lost their brother?',
+             'Acknowledge the sibling bond: "I\'m so sorry about your brother. The bond you shared was special." Share a memory of them together if you can. Sibling grief is often under-recognized — validating it matters.'),
+            ('Is sibling grief different from other grief?',
+             'Yes — siblings share a unique history, childhood memories, and inside jokes that no one else shares. Losing a brother is losing a witness to your life. The grief is deep and deserves full recognition.'),
+            ('How can I support a friend who lost their brother?',
+             'Offer to listen, share memories, and keep checking in — especially on birthdays and anniversaries. Don\'t expect them to "be strong for their parents"; they\'re grieving too.'),
+        ],
+    },
+    'sister': {
+        'slug': 'condolence-messages-for-loss-of-sister',
+        'h1': 'Condolence Messages for Loss of Sister',
+        'title': 'Condolence Messages for Loss of Sister – 30+ Heartfelt Messages',
+        'desc': 'Losing a sister is losing a confidante. Find heartfelt condolence messages for loss of sister — warm, meaningful, and religious.',
+        'faq': [
+            ('What do you say to someone who lost their sister?',
+             '"I\'m so sorry about your sister. The bond you shared was beautiful." Sisters are confidantes and keepers of memories — acknowledge that unique connection. Share a memory if you have one.'),
+            ('What should I write in a card for loss of a sister?',
+             'Honor the sister bond — the confidante relationship, the shared history. "Your sister was your first friend and your forever friend. I\'m so sorry." Add a specific memory of them together.'),
+            ('How can I support someone grieving a sister?',
+             'Listen, remember her name, and keep showing up. Sibling grief is lifelong — check in on birthdays, anniversaries, and ordinary days that feel hard.'),
+        ],
+    },
+    'meaningful': {
+        'slug': 'meaningful-condolence-messages',
+        'h1': 'Meaningful Condolence Messages',
+        'title': 'Meaningful Condolence Messages – 40+ Deep & Thoughtful Messages',
+        'desc': 'Meaningful condolence messages that honor the depth of grief — thoughtful, heartfelt words for when "I\'m sorry" isn\'t enough.',
+        'faq': [
+            ('What makes a condolence message meaningful?',
+             'Meaningful messages acknowledge the depth of the loss and the permanence of love. They avoid clichés and speak honestly about grief. Pair a thoughtful line with a specific memory for maximum impact.'),
+            ('When should I send a meaningful message vs a simple one?',
+             'Use meaningful messages for close relationships or when you want to honor the loss deeply. Use simple messages for acquaintances, texts, or when the family is overwhelmed. Both are valid.'),
+            ('Should meaningful messages be long?',
+             'No — length isn\'t what makes a message meaningful. A short, heartfelt line that truly acknowledges the loss beats a long, generic essay every time.'),
+        ],
+    },
+    'simple': {
+        'slug': 'simple-condolence-messages',
+        'h1': 'Simple Condolence Messages',
+        'title': 'Simple Condolence Messages – 30+ Short & Sincere Messages',
+        'desc': 'Simple condolence messages that are short, sincere, and appropriate for any loss — perfect for texts and quick notes.',
+        'faq': [
+            ('Is a short condolence message okay?',
+             'Yes — short and sincere beats long and generic every time. "I\'m so sorry for your loss. Thinking of you and your family." is a complete message.'),
+            ('What should a simple condolence message include?',
+             'Acknowledge the loss, express your sympathy, and if you can, add one small personal line. Avoid clichés and questions. Brevity is a kindness when someone is grieving.'),
+            ('When is a simple message more appropriate than a long one?',
+             'For acquaintances, coworkers, or when you don\'t know the family well. Also when the loss is very fresh and the family is overwhelmed — simple is easier to hold onto.'),
+        ],
+    },
 }
 
 PAGE = """<!DOCTYPE html>
@@ -324,7 +408,10 @@ def build_faq(faq_list):
 
 def main():
     for key, meta in SCENES.items():
-        rel = wb[key]
+        if key in wb.get('style_pages', {}):
+            rel = wb['style_pages'][key]
+        else:
+            rel = wb[key]
         tone_sections = build_tone_sections(rel)
         faq = build_faq(meta['faq'])
         html = PAGE.format(
